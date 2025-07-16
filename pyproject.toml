@@ -1,0 +1,33 @@
+[project]
+name = "TopicVI"
+version = "0.0.1"
+authors = [
+  { name="gx-Cai", email="gxcai@zju.edu.cn" },
+]
+description = "TopicVI: A model for topic modeling with variational inference for single-cell RNA-seq data"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "Apache-2.0"
+license-files = ["LICEN[CS]E*"]
+dependencies = [
+    'scvi-tools>=1.2',
+    'pandas',
+    'scanpy',
+    'flax>=0.8',
+    'geomloss',
+    'scikit-misc',
+    'torch>=2.0',
+]
+
+[project.urls]
+Homepage = "https://github.com/gx-Cai/TopicVI"
+Issues = "https://github.com/gx-Cai/TopicVI/issues"
+Documentation = "https://github.com/gx-Cai/TopicVI/wiki"
+
+[build-system]
+requires = ["setuptools >= 75.8.0"]
+build-backend = "setuptools.build_meta"

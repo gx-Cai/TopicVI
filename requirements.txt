@@ -1,0 +1,7 @@
+scvi-tools>=1.2
+pandas
+scanpy
+flax>=0.8
+geomloss
+scikit-misc
+torch>=2.0
