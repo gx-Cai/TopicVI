@@ -21,14 +21,24 @@ For more details, please reefer to our paper.
 
 ## Installation
 
+by source code:
+
+Notice to the pytorch version and your CUDA version. We highly recommend you should install the correct pytorch version first, then install TopicVI.
+
 ```bash
 git clone https://github.com/gx-cai/topicvi.git
 cd topicvi
 pip install -e .
 ```
 
+by pip: [Currently not available]
 
-## Document
+```bash
+pip install topicvi
+```
+
+
+## Documentation
 
 See [Wiki page](https://github.com/gx-cai/topicvi/wiki) for more details.
 
