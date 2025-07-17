@@ -319,7 +319,7 @@ class TopicVI(SCVI):
         n_layers: int = 2,
         dropout_rate: float = 0,
         dispersion: Literal["gene", "gene-batch", "gene-label", "gene-cell"] = "gene",
-        gene_likelihood: Literal["zinb", "nb"] = "zinb",
+        gene_likelihood: Literal["zinb", "nb", 'normal'] = "zinb",
         mode: Literal["supervised", "unsupervised", "semisupervised"] = 'unsupervised',
         **model_kwargs,
     ):
