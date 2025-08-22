@@ -1,6 +1,6 @@
 
 __version__ = "0.1.0"
-__all__ = ["TopicVI", "TopicMetrics", "TopicDict", "prior_utils", "pp", "pl", 'run_topicvi']
+__all__ = ["TopicVI", "TopicMetrics", "TopicDict", "pp", "pl", 'run_topicvi']
 
 from .model.module import TopicVI
 from .metrics import TopicMetrics
