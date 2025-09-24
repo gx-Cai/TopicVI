@@ -31,12 +31,15 @@ cd topicvi
 pip install -e .
 ```
 
-by pip: [Currently not available]
+by conda: 
 
 ```bash
-pip install topicvi
+conda create -n topicvi python=3.11
+conda activate topicvi
+conda install scvi-tools>=1.2 leidenalg scanpy pandas python-igraph gseapy -c conda-forge -c bioconda
+pip install geomloss scikit-misc harmonypy
+pip install "flax>=0.8"
 ```
-
 
 ## Documentation
 
