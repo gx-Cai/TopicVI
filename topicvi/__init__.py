@@ -16,7 +16,7 @@ def __run_topicvi(
     data, config, run_func,
     compressed=False, 
     verbose=False, 
-    save_model=None,
+    save_model=True,
     check_runned=True
 ):
     RunningPipeline(
@@ -35,7 +35,7 @@ def run_topicvi(
     data, config, 
     compressed=False, 
     verbose=False, 
-    save_model=None,
+    save_model=True,
     check_runned=True
 ):
     """
@@ -67,7 +67,7 @@ def run_topicvi_denovo_finding(
     data, config, 
     compressed=False, 
     verbose=False, 
-    save_model=None,
+    save_model=True,
     check_runned=True
 ):
     """
