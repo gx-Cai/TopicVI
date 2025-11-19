@@ -1,5 +1,6 @@
 scvi-tools>=1.2
 pandas
+openpyxl
 scanpy
 flax>=0.8
 geomloss
