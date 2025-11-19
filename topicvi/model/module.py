@@ -327,7 +327,9 @@ class TopicVI(SCVI):
 
         if dispersion == 'gene-label' and mode == 'unsupervised':
             warnings.warn("Label will also be used in initialization of cell cluster inference but will not simutaneously updated in topic decoder, unconsidered influence may occur. Please be cautious.", category=RuntimeWarning)
-
+        
+        assert not adata.var_names.duplicated().any(), "Gene names in adata.var_names are duplicated, please make them unique."
+        
         n_batch = self.summary_stats.n_batch
         use_size_factor_key = REGISTRY_KEYS.SIZE_FACTOR_KEY in self.adata_manager.data_registry
         library_log_means, library_log_vars = None, None
