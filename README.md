@@ -49,4 +49,6 @@ See [Wiki page](https://github.com/gx-cai/topicvi/wiki) for more details.
 
 If you use TopicVI in your research, please cite the following paper:
 
-[Currently not available]
+TopicVI: A Knowledge-guided deep interpretable model for resolving context-specific gene programs
+Guoxin Cai, Wenyi Zhao, Xunuo Zhu, Yitao Lin, Binbin Zhou, Ji Cao, Qiaojun He, Bo Yang, Xun Gu, Xushen Xiong, Zhan Zhou
+bioRxiv 2026.04.08.717220; doi: https://doi.org/10.64898/2026.04.08.717220
